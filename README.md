@@ -77,7 +77,8 @@ example:
 
 ```dd().imager("http://image source", "#id .class .anotherClass");```
 </details>
-- - - - - 
+
+- - - -
 
 ### Method: diver()
 
@@ -90,7 +91,8 @@ example:
 
 ```dd().diver("#id .class .newClass);```
 </details>
-- - - - - 
+
+- - - - 
 
 ### Method: css()
 
@@ -105,7 +107,8 @@ example:
 
 ```dd().css("color: red; position: relative;", ".class, #id, div id");```
 </details>
-- - - - - -
+
+- - - -
 
 ### Lazy functions
 
