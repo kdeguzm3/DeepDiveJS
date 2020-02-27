@@ -47,7 +47,7 @@ DeepDive will feature methods for creating HTML elements and appending them to t
 
 ### Method: writer()
 
-        The writer method will add a new text element to the target.  It can take 3 arguments, only the first is required:
+        The writer() method will add a new text element to the target.  It can takes 3 arguments.
 
 <details>
 
@@ -66,12 +66,12 @@ example:
 
 ### Method: imager()
 
-        The imager method will add a new image element to the target.  It can take 2 arguments, only the first is required:
+        The imager() method will add a new image element to the target.  It takes 2 arguments.
 <details>
 
 * Image source: The url or relative path of the image file.
 
-* DOM selectors: The third argument will be a list of selectors to be assigned to the new element, separated by whitespace.
+* DOM selectors: The second argument will be a list of selectors to be assigned to the new element, separated by whitespace.
 
 example:
 
@@ -81,10 +81,10 @@ example:
 
 ### Method: diver()
 
-        The diver method will add a new div element to the target and immediately makes the resulting div the target.  It only takes one argument.
+        The diver() method will add a new div element to the target and immediately makes the resulting div the target.
 <details>
 
-* DOM selectors: The third argument will be a list of selectors to be assigned to the new element, separated by whitespace.
+* DOM selectors: This argument will be a list of selectors to be assigned to the new element, separated by whitespace.
 
 example:
 
@@ -94,7 +94,7 @@ example:
 
 ### Method: css()
 
-        The css method will add styling to HTML elements. It takes two arguments.
+        The css() method will add styling to HTML elements. It takes two arguments.
 <details>
 
 * CSS styling: This string should contain the same key value pairs as they are written in CSS syntax
