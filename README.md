@@ -77,6 +77,7 @@ example:
 
 ```dd().imager("http://image source", "#id .class .anotherClass");```
 </details>
+- - - - - 
 
 ### Method: diver()
 
@@ -89,7 +90,21 @@ example:
 
 ```dd().diver("#id .class .newClass);```
 </details>
+- - - - - 
 
+### Method: css()
+
+        The css method will add styling to HTML elements. It takes two arguments.
+<details>
+
+* CSS styling: This string should contain the same key value pairs as they are written in CSS syntax
+
+* CSS Selector: You can type selectors as they would appear in CSS syntax.  If no syntax is declared, it will target the most recent element ID declared in the chain.  If no element ID was declared in the current chain, the target is the `<body>` element
+
+example:
+
+```dd().css("color: red; position: relative;", ".class, #id, div id");```
+</details>
 - - - - - -
 
 ### Lazy functions
