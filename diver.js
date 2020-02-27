@@ -1,3 +1,14 @@
+//lazy functions here
+
+function pp(textString) {       //primitive print. For simple console logging only.  No other console log functions.
+    console.log(textString);
+}
+
+//Min Max.  Returns a random number between the minimum and maximum integers
+function mm(lowestInteger, highestInteger) {
+    return Math.floor(Math.random() * (1 + (highestInteger - lowestInteger))) + lowestInteger;
+}  
+
 // Function to read a string of multiple selector declarations, separated by whitespace,
 // to be assigned to 'target'
 
@@ -15,7 +26,7 @@ function assignSelectors(target, selectorString) {
     });
 }
 
-// Main library function
+// Main library function: Deep Dive
 
 function dd(selector) {
 

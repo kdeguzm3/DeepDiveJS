@@ -89,3 +89,14 @@ example:
 
 ```dd().diver("#id .class .newClass);```
 </details>
+
+- - - - - -
+
+### Lazy functions
+
+    These functions do not require `dd()` to initiate:
+
+ `mm(minimum, maximum)` returns a random value between and including minimum and maximum.
+
+ `pp()` Primitive Print writes the message passed in the arguments into the console.  a lazy console log.
+
