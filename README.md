@@ -1,8 +1,10 @@
 ## First Things First
 
-Add this code at the end of the <body> section of your html file:
+Add this code near the end of the <body> section of your html file:
   
 ``` <script src = "https://kdeguzm3.github.io/DeepDiveJS/diver.js" />```
+
+place this right before your main `<script>` tag.
 
 # DeepDiveJS
 Personal library for multi line functions used for boot camp
