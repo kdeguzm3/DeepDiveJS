@@ -1,7 +1,7 @@
 # Deep Dive JS
 
 ### Builder pattern library for building HTML pages
-![](sample.png|width=400)
+<img src="sample.png" alt="Sample code" width="400"/>
 
 ## Table of Contents
 
