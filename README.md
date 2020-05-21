@@ -1,15 +1,19 @@
-## First Things First
+# Deep Dive JS
+
+### Builder pattern library for building HTML pages
+![](sample.png)
+
+## Table of Contents
+
+[Installation](#Installation) | [Usage](#Usage) | [License](#License) | [Contributors](#Contributors) | [Questions](#Questions)
+
+## Installation
 
 Add this code near the end of the <body> section of your html file:
-  
-``` <script src = "https://kdeguzm3.github.io/DeepDiveJS/diver.js" />```
 
-place this right before your main `<script>` tag.
+        <script src = "https://kdeguzm3.github.io/DeepDiveJS/diver.js" />
 
-# DeepDiveJS
-Personal library for multi line functions used for boot camp
-
-## First Step: 
+## Usage
 
 Every line of code using DeepDive, starts with:
 
@@ -39,13 +43,13 @@ dd()
 ```
 </details>
 
-## Builders:
+### Builders:
 
 DeepDive will feature methods for creating HTML elements and appending them to the target element.
 
 - - - - 
 
-### Method: writer()
+#### Method: writer()
 
         The writer() method will add a new text element to the target.  It can takes 3 arguments.
 
@@ -64,7 +68,7 @@ example:
 
 - - - - 
 
-### Method: imager()
+#### Method: imager()
 
         The imager() method will add a new image element to the target.  It takes 2 arguments.
 <details>
@@ -80,7 +84,7 @@ example:
 
 - - - -
 
-### Method: diver()
+#### Method: diver()
 
         The diver() method will add a new div element to the target and immediately makes the resulting div the target.
 <details>
@@ -94,7 +98,7 @@ example:
 
 - - - - 
 
-### Method: css()
+#### Method: css()
 
         The css() method will add styling to HTML elements. It takes two arguments.
 <details>
@@ -118,3 +122,19 @@ example:
 
  `pp()` Primitive Print writes the message passed in the arguments into the console.  a lazy console log.
 
+
+## License
+
+MIT
+
+ ## Contributors
+
+[![](https://img.shields.io/badge/github-kdeguzm3-brightgreen?style=plastic)](https://www.github.com/kdeguzm3)
+
+
+## Questions
+
+![](https://avatars3.githubusercontent.com/u/58832810?v=4&s=200)
+
+[![](https://img.shields.io/badge/gitHub-kdeguzm3-blue?style=plastic)](https://www.github.com/kdeguzm3) | 
+[![](https://img.shields.io/badge/email-kaydeekhing@gmail.com-purple?style=plastic)](mailto:kaydeekhing@gmail.com)
