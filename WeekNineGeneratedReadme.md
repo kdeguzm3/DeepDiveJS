@@ -1,6 +1,7 @@
 # Deep Dive JS
 
 ### Builder pattern library for building HTML pages
+![](sample.png)
 
 ## Table of Contents
 
